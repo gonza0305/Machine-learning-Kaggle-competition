@@ -1,4 +1,4 @@
-# Machine-learning-Kaggle-competition
+# Machine learning Kaggle competition
 
 # Introduction
 
