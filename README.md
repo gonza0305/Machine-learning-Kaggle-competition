@@ -33,6 +33,11 @@ We trained the data using the following methods:
 
 The following table shows the maximum results for the F1 score obtained in the validation partition under each of the methods used:
 
+| Method   | LR     | DT     | LDA    | QDA    | RF     | KNN    | GNB    | XGB    | Keras  | Stack  |
+|----------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|
+| F1 score | 0.2899 | 0.2017 | 0.2894 | 0.2388 | 0.2799 | 0.1999 | 0.3091 | 0.3268 | 0.2432 | 0.3205 |
+
+
 # Conslusions
 
 As we can see in the previous table, the greatest F1 score is obtained with the XGBoost classifier, obtaining a maximum score of 0.3268 in the validation part. We obtained the best results under this method and, thus, this was the most used method to submit predictions with.
